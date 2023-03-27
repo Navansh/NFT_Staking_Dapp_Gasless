@@ -54,8 +54,8 @@ return (
     {scwLoading && <h2>Loading Smart Account...</h2>}
     {scwAddress && console.log(scwAddress)}
     <TokenBal smartAccount={smartAccount} />
-    <StakedNft smartAccount={smartAccount} />
-    <UnstakedNft smartAccount={smartAccount} />
+    <StakedNFT smartAccount={smartAccount} />
+    <UnstakedNFT smartAccount={smartAccount} />
     <Mint smartAccount={smartAccount} />
   </div>
 );
