@@ -6,8 +6,8 @@ import { ChainId } from "@biconomy/core-types";
 import SmartAccount from "@biconomy/smart-account";
 
 /// Importing the components
-import UnstakedNft from "./Modal/UnstakedNft";
-import StakedNft from "./Modal/StakedNft";
+import UnStakedNFT from "./Modal/UnStakedNFT";
+import StakedNFT from "./Modal/StakedNFT";
 import TokenBal from "./Modal/TokenBal";
 import Mint from "../pages/mint";
 
