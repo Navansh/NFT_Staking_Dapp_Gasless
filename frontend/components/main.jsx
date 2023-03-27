@@ -55,7 +55,7 @@ return (
     {scwAddress && console.log(scwAddress)}
     <TokenBal smartAccount={smartAccount} />
     <StakedNFT smartAccount={smartAccount} />
-    <UnstakedNFT smartAccount={smartAccount} />
+    <UnStakedNFT smartAccount={smartAccount} />
     <Mint smartAccount={smartAccount} />
   </div>
 );
