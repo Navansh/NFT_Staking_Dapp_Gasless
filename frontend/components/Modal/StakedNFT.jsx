@@ -34,6 +34,7 @@ const StakedNft = ({ smartAccount }) => {
           console.log(tx.toNumber());
           const tx2 = await nftContract?.tokenURI(tokenId);
           setTokenURI(tx2);
+          console.log(tx2);
         } catch (err) {
           console.log(err);
         }
