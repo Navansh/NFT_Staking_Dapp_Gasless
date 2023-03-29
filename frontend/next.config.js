@@ -8,6 +8,7 @@ const nextConfig = {
         hostname: "**",
       },
     ],
+    domains: ["ipfs.nftstorage.link"],
   },
 };
 
