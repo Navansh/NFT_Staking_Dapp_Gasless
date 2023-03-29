@@ -82,7 +82,7 @@ const NFTCard = ({ url, stake, tokenId, smartAccount }) => {
         try {
           const res = await fetch(url);
           const data = await res.json();
-
+          console.log(data);
           setNft({
             name: data.name,
             image: data.image,
